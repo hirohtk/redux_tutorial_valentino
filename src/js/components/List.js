@@ -3,6 +3,7 @@ import { connect } from "react-redux";
 
 // GET FROM STORE
 // If your mapStateToProps function is declared as taking one parameter, it will be called whenever the store state changes
+
 const mapStateToProps = state => {
   return { articles: state.articles };
 };

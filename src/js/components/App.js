@@ -3,6 +3,7 @@ import List from "./List";
 import Form from "./Form";
 
 const App = () => (
+    // SHORTFORM OF REACT.FRAGMENT IS <></>
     <React.Fragment>
         <div>
             <h2>Articles</h2>
